@@ -52,10 +52,3 @@ else:
     print("\n★ 맞춤형 가상 추천 식단 결과 ★")
     for item in recommend_recipe:
         print(f"- {item[0]} (탄수화물:{item[2]}g, 단백질:{item[3]}g)")
-
-        display_food_list(food_data)
-
-print("\n==================================")
-print(" 가상 맞춤형 헬스케어 식단 프로그램 ")
-print("==================================")
-
